@@ -1,6 +1,6 @@
 pipeline {
   agent { docker { 
-  			label "windows"
+  			label 'windows'
   			image 'python:3' 
   			} }
   stages {
