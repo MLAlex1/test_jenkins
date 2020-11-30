@@ -1,5 +1,8 @@
 pipeline {
-  agent { docker { image 'python:3' } }
+  agent { docker { 
+  			label "windows"
+  			image 'python:3' 
+  			} }
   stages {
     stage('build') {
       steps {
