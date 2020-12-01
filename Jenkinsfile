@@ -5,7 +5,7 @@ pipeline {
       steps {
       	sh """
       	pip install numpy 
-        python -m test.py
+        python test.py
         """
       }
     }
